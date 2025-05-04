@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Weather from "./components/Weather";
+import DeviceDateTime from './components/DeviceDateTime';
 
 export default function App() {
   const [city, setCity] = useState("");
@@ -38,6 +39,7 @@ export default function App() {
   return (
     <div className="bg">
       <div className="overly"></div>
+      <DeviceDateTime />
     <div className="app">
       <h1>🌦️ Weather App</h1>
       <input

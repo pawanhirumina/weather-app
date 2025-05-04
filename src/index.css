@@ -36,6 +36,7 @@
   align-items: center;
 }
 .app input {
+  font-size: 1rem;
   width: 300px;
   padding: 10px;
   border: none;
@@ -57,7 +58,7 @@
   font-weight: 111;
 }
 h1 {
-    color: #fff;
+  color: #fff;
 }
 .app button {
   width: 300px;
@@ -78,7 +79,8 @@ h1 {
   padding: 10px;
 }
 .weather-box {
-  background-color: #0e121d;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -89,4 +91,24 @@ h1 {
   padding: 20px;
   border-radius: 10px;
   gap: 10px;
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.date {
+  text-align: left;
+}
+
+.time {
+  text-align: right;
 }
