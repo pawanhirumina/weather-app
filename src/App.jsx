@@ -37,6 +37,7 @@ export default function App() {
 
   return (
     <div className="bg">
+      <div className="overly"></div>
     <div className="app">
       <h1>🌦️ Weather App</h1>
       <input
